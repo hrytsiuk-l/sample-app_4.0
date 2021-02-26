@@ -9,12 +9,12 @@ default: &default
 
 development:
   <<: *default
-  database: sample-app_4.0_dev
+  database: sample-app_4_0_dev
   host: localhost
 
 test:
   <<: *default
-  database: sample-app_4.0_test
+  database: sample-app_4_0_test
   host: localhost
 
 production:
