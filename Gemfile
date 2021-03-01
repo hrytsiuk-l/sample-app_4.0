@@ -33,6 +33,8 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails'
   gem 'pry'
+  gem 'guard-rspec', '4.6.0'
+  gem 'childprocess'
 end
 
 group :development do
